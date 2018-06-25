@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+label{
+	padding-left: 10px;
+}
+
+input[type="radio"]{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type="button"]{
+	margin: 0 auto;
+	font-weight: bold;
+	width: 80px;
+}
+
+#blue-note-desc{
+	width: 90%;
+	margin: 0 auto;
+	border: 2px solid black;
+	text-align: center;
+}
+
+#blue-note-desc td,th{
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+#btnFreeze{
+	margin-bottom: 5px;
+}
