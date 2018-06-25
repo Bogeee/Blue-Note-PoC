@@ -25,7 +25,7 @@ window.onload = function detectOS()
 	if(OSName=="by Boge")
 		{
 			alert("You are not running Windows 10 or Ubuntu! It isn't going to work.");
-			//document.getElementById("btnFreeze").disabled = true;
+			document.getElementById("btnFreeze").disabled = true;
 		}
 }
 
@@ -118,6 +118,5 @@ function startFreq (fr) {
     wet3.connect(reverb);
 
 	// Start the frequence
-	source3.stop(0);
     source3.start(0);
 }
